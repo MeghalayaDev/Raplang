@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="description" content="A Community Webapp">
+      <meta name="author" content="Meghalaya Dev Community">
+      <link rel="icon" href="#">
+      <title>Raplang</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+      <link rel="stylesheet" href="css/main.css">
+      <!-- Google Icons -->
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+   </head>
+   <body>
+      <div class="mobile">
+      <!-- As a heading -->
+      <nav class="navbar fixed-top navbar-light bg-light">
+         <h2 class="navbar-brand mb-0"><img src="img/logo.png" width="50px" height="50px" /> &nbsp;Raplang</h2>
+      </nav>
+      <!-- Begin page content -->
+      <div class="container-fluid">
+		<br/>
+         <!-- Feed page -->
+         <div id="page-feed" class="active">
+           <h2>Feeds</h2>
+           <div class="block">
+            <i>"We will be posting only government notification links from Meghalaya and other news that could he helpful during this time."</i>
+          </div>
+
+          <div class="block">           
+            <div class="col-xl-3 col-md-3 col-sm-3 col-xs-3">
+                    <div class="card card-stats bg-primary mt-2">
+                      <!-- Card body -->
+                      <div class="card-body text-white">
+                        <div class="row">
+                          <div class="col">                      
+                            <span class="h5 font-weight-bold mb-0">Temporary Markets</span>
+                            <p class="card-title mb-0">on 26 March 2020</p>
+                            <p> Status Whether Open: N/A</p>
+                          </div>                          
+                        </div>
+                        <p class="mt-3 mb-0 text-sm">
+                         A list of temporary markets to be opened on 26 March 2020:
+
+                        <table class="table table-responsive table-striped">
+                          <thead class="thead-light">
+                            <tr>
+                              <th scope="col">#</th>
+                              <th scope="col">Location</th>                              
+                            </tr>
+                          </thead>
+                          <tbody>
+                            <tr>
+                              <th scope="row">1</th>
+                              <td>Anjalee Point - Cantonment</td>                              
+                            </tr>
+                            <tr>
+                              <th scope="row">2</th>
+                              <td>Police Beat House</td>                              
+                            </tr>
+                            <tr>
+                              <th scope="row">3</th>
+                              <td>Lad Smit</td>                              
+                            </tr>
+                            <tr>
+                              <th scope="row">4</th>
+                              <td>Madan Umodiengpun(7th Mile)</td>
+                            </tr>
+                            <tr>
+                              <th scope="row">5</th>
+                              <td>Upper Shillong</td>                              
+                            </tr>
+                            <tr>
+                              <th scope="row">6</th>
+                              <td>Mawiong</td>                              
+                            </tr>
+                          </tbody>
+                        </table>
+                         
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+          </div>
+
+          <!--<div class="block">
+            <div class="col-xl-3 col-md-3 col-sm-3 col-xs-3">
+                    <div class="card card-stats bg-secondary mt-2">                      
+                      <div class="card-body pr-2">
+                        <div class="row">
+                          <div class="col">                      
+                            <span class="h5 font-weight-bold text-white mb-0">Day 1</span>
+                            <p class="card-title  text-white mb-0">Thought of the Day, 26 March 2020</p>
+                          </div>                          
+                        </div>
+                        <p class="mt-3 mb-0 text-sm">
+                        
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+          </div>-->
+         </div>
+
+         
+         <!-- Create page -->
+         <div id="page-create" class="inactive">
+           <h1>Create Page</h1>
+            <form>
+               <div class="form-row">
+                  <div class="form-group col-md-6">
+                     <label for="inputEmail4" class="col-form-label">Email</label>
+                     <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                  </div>
+                  <div class="form-group col-md-6">
+                     <label for="inputPassword4" class="col-form-label">Password</label>
+                     <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                  </div>
+               </div>
+               <div class="form-group">
+                  <label for="inputAddress" class="col-form-label">Address</label>
+                  <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+               </div>
+               <div class="form-group">
+                  <label for="inputAddress2" class="col-form-label">Address 2</label>
+                  <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+               </div>
+               <div class="form-row">
+                  <div class="form-group col-md-6">
+                     <label for="inputCity" class="col-form-label">City</label>
+                     <input type="text" class="form-control" id="inputCity">
+                  </div>
+                  <div class="form-group col-md-4">
+                     <label for="inputState" class="col-form-label">State</label>
+                     <select id="inputState" class="form-control">Choose</select>
+                  </div>
+                  <div class="form-group col-md-2">
+                     <label for="inputZip" class="col-form-label">Zip</label>
+                     <input type="text" class="form-control" id="inputZip">
+                  </div>
+               </div>
+               <div class="form-group">
+                  <div class="form-check">
+                     <label class="form-check-label">
+                     <input class="form-check-input" type="checkbox"> Check me out
+                     </label>
+                  </div>
+               </div>
+               <button type="submit" class="btn btn-primary">Sign in</button>
+            </form>
+         </div>
+
+         <!-- Account page -->
+         <div id="page-account" class="inactive">
+            <h2>Account Page</h2>
+            <div class="block">
+              <h2>The standard Lorem Ipsum passage</h2>
+  
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+              Section 1.10.32 of "de Finibus Bonorum et Malorum", written by Cicero in 45 BC
+            </div>
+         </div>
+      </div>
+
+      <!-- Bottom Nav Bar -->
+      <footer class="footer">         
+         <div class="btn-group selectors" role="group" aria-label="Basic example">
+            
+            <button type="button" class="btn btn-secondary button-inactive" onclick="window.location.href = 'index.html';">
+               <div class="selector-holder">
+                  <i class="material-icons">home</i>
+                  <span>Home</span>
+               </div>
+            </button>
+            
+            <button type="button" class="btn btn-secondary button-active">
+               <div class="selector-holder">
+                  <i class="material-icons">view_list</i>
+                  <span>Feeds</span>
+               </div>
+            </button>        	
+            <button  type="button" class="btn btn-secondary button-inactive" onclick="window.location.href = 'stats.html';">
+               <div class="selector-holder">
+                  <i class="material-icons">assessment</i>
+                  <span>Stats</span>
+               </div>
+            </button>
+            <button  type="button" class="btn btn-secondary button-inactive" onclick="window.location.href = 'support.html';">
+               <div class="selector-holder">
+                  <i class="material-icons">favorite</i>
+                  <span>Support</span>
+               </div>
+            </button>
+            <button  type="button" class="btn btn-secondary button-inactive" onclick="window.location.href = 'about.html';">
+               <div class="selector-holder">
+                  <i class="material-icons">info</i>
+                  <span>About</span>
+               </div>
+            </button>
+         </div>
+      </footer>
+      <!-- Bootstrap core JavaScript -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+      </div>
+      <div class="web text-center">
+         <h3> Application not available for Desktops</h3>
+      </div>
+   </body>
+</html>
+
