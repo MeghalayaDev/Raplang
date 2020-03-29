@@ -3,7 +3,7 @@
 
 Simple, Changable, informative and easy to work with webapp. 
 
-A community website for the general people wiht updates, started on 25th March 2020.
+A community website for the general people with updates in the locality, area and city of Shillong in the state of Meghalaya it was started on 25th March 2020.
 
 
 ## Based on 
