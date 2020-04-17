@@ -164,7 +164,7 @@
                    <div class="card-body bg-success">
                      <div class="row">
                        <div class="col">
-                         <span class="h2 font-weight-bold text-white mb-0">14126+</span>
+                         <span class="h2 font-weight-bold text-white mb-0" id="indiaconfirmed">14126+</span>
                          <p class="card-title mb-0 text-white">Confirmed</p>
                        </div>
                        <div class="col-auto">
@@ -187,7 +187,7 @@
                    <div class="card-body bg-danger">
                      <div class="row">
                        <div class="col">
-                         <span class="h2 font-weight-bold text-white mb-0">475</span>
+                         <span class="h2 font-weight-bold text-white mb-0" id="indiadeaths">475</span>
                          <p class="card-title text-white mb-0">Deaths</p>
                        </div>
                        <div class="col-auto">
@@ -348,6 +348,11 @@ kindly visit a hospital and have a check-up.<br/> They can then stay at home and
 
 
 		function getdata(data) {
+			let indiadata = data.cases_time_series[(data.cases_time_series).length - 1];
+
+		    $("#indiaconfirmed").text(indiadata.totalconfirmed);
+		    $("#indiadeaths").text(indiadata.totaldeceased);
+		    console.log(indiadata);
 		    let statewise = data.statewise;
 		    let element = null;
 		    for (let i = 0; i < statewise.length; i++) {
